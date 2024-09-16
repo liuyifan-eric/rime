@@ -1,0 +1,11 @@
+*.userdb*
+
+# reverse binaries (kMandarin etc.) are in build/, do not ignore
+build/*
+!build/zdict.reverse.bin
+!build/kMandarin.reverse.bin
+!build/pinyin.reverse.bin
+!build/tone.reverse.bin
+
+installation.yaml
+user.yaml
