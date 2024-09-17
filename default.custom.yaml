@@ -7,9 +7,10 @@ patch:
   schema_list:
     # - schema: luna_pinyin_simp # 朙月拼音
     - schema: rime_frost            # 白霜拼音（全拼）
-    - schema: rime_ice              # 雾凇拼音（全拼）
+    # - schema: rime_ice              # 雾凇拼音（全拼）
     - schema: ipa_xsampa            # IPA X-SAMPA
     - schema: ipa_yunlong           # IPA 雲龍
+    # - schema: t9                    # 九宫格（仓输入法）
 
 
   menu/page_size: 8 # 候选词个数
